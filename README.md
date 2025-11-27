@@ -23,8 +23,8 @@ A full-stack application that allows hackathon organizers to connect their Disco
 ### 1. Clone and Install
 
 ```bash
-git clone <repository-url>
-cd discord-hackathon-manager
+git clone [<repository-url>](https://github.com/ankur-JA/discord-demo.git)
+cd discord-demo
 npm install
 ```
 
