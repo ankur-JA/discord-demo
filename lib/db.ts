@@ -1,4 +1,8 @@
+import { config } from 'dotenv';
 import { Pool } from 'pg';
+
+// Load env vars before creating pool
+config();
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
